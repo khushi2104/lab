@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+       
+        document.addEventListener('DOMContentLoaded', function() {
+          
+            var loginButton = document.querySelector('button');
+
+            
+            loginButton.addEventListener('click', function() {
+               
+                var nameInput = document.querySelector('input[type="text"]');
+                var passwordInput = document.querySelector('input[type="password"]');
+                
+              
+                if (nameInput.value.trim() === '' || passwordInput.value.trim() === '') {
+                    alert('Please enter both name and password.');
+                } else {
+                    
+                    alert('Login successful!');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="main-box">
+        <h1>Login Form</h1>
+        <div class="sub-box">
+            <label for="text">Name</label>
+            <input type="text">
+
+           <label for="text">Password</label>
+           <input type="password">
+
+           <button>Login</button>
+        </div>
+    </div>
+</body>
+</html>

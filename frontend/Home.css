@@ -1,0 +1,71 @@
+/* Styles for the navigation bar */
+body{
+    
+}
+.Navbar {
+    background-color: #0e0303;
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+.list li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 15px;
+    font-size: larger;
+}
+
+/* Styles for the main content */
+.list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.list2 li {
+    margin: 30px;
+}
+
+.list2 li img {
+    width: 500px;
+    height: 300px;
+   
+}
+
+.list2 li a {
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    float: inline-end;
+}
+
+/* Styles for the footer */
+.foot {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 200px;
+}
+.img1, .img2,.img3{
+   margin: 10px;
+   
+}
+
+button{
+    background-color: greenyellow;
+}
